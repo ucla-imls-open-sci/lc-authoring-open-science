@@ -68,6 +68,7 @@ contact: 'team@carpentries.org' # FIXME
 episodes: 
 - scholarly-publishing-process.md
 - open-authoring-tools.md
+- open-peer-review.md
 
 # Information for Learners
 learners: 
