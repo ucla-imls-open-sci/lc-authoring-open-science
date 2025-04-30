@@ -21,9 +21,6 @@ exercises: 30
 
 ::::: 
 
-## Narrative Setup
-
-An open–science–minded author is told their performance review depends on publishing in a peer-reviewed journal. They want to use GitHub to collaborate with coauthors transparently. This episode explores how the scholarly publishing process works and how open science values can be integrated.
 
 ## Overview of Scholarly Publishing
 
