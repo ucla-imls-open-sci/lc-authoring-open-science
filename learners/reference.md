@@ -51,9 +51,6 @@ A document authoring approach that prioritizes semantic structure over visual ap
 
 ## References
 
-1. Ketchum AM. The research life cycle and the health sciences librarian: responding to change in scholarly communication. J Med Libr Assoc. 2017 Jan;105(1):80-83. doi: 10.5195/jmla.2017.110. PMID: 28096750; PMCID: PMC5234449.
-2. ## References
-
 1. Ketchum AM. The research life cycle and the health sciences librarian: responding to change in scholarly communication. *J Med Libr Assoc.* 2017 Jan;105(1):80–83. https://doi.org/10.5195/jmla.2017.110
 2. The Open Science Toolkit. Center for Open Science. https://osf.io/a4ftw/
 3. Author Carpentry Workshop. https://github.com/kmiller621/author-2022-05-16-online
