@@ -24,17 +24,15 @@ exercises: 30
 
 ## Overview of Scholarly Publishing
 
-Researchers often face the "publish or perish" mandate. But what qualifies as "publishing"? And who decides what's acceptable?
+Researchers in all disciplines are often told to “publish or perish”, meaning that they must write articles about their research and get them printed in acceptable publications or risk losing out on opportunities. If you think this instruction to “publish” is vague, then you’re on the right track. What does it mean to publish or be published? What is an “acceptable” publication? That usually depends on the POV of three groups (1) research/academic institutions (2) funders (3) publishers. 
 
-Three stakeholder groups shape this:
-1. Academic institutions (e.g., employers, tenure committees)
-2. Funders (e.g., federal agencies)
-3. Publishers (e.g., commercial or scholarly presses)
+Fortunately, there is always a great xckd comic for everything, and even better contextual information on the explain xkcd wiki. 
 
 > ![Placeholder for xkcd comics](path/to/image.png)
 > - [The Rise of Open Access](https://www.explainxkcd.com/wiki/index.php/The_Rise_of_Open_Access)
 > - [arXiv](https://www.explainxkcd.com/wiki/index.php/2085:_arXiv)
 > - [Peer Review](https://www.explainxkcd.com/wiki/index.php/2025:_Peer_Review)
+
 
 ::::: challenge 
 
