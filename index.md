@@ -2,8 +2,6 @@
 site: sandpaper::sandpaper_site
 ---
 
-# Authoring Open Science
-
 The values proclaimed by open science—trust, transparency, and reproducibility—are most visible during the outputs stage of the research lifecycle. Creating open and transparent outputs is a requirement for reproducible research. Librarians can support researchers in creating these open outputs through education, outreach, technical troubleshooting, and review.
 
 This lesson builds upon work done by the Caltech Library in their Author Carpentry lessons, focusing on how open science values can be integrated into the processes for authoring and reviewing research outputs. Topics include open authoring tools and workflows, contributor roles and transparency, ethics of authorship and review, and the mechanics and culture of open peer review. The lesson concludes by linking open science with Diversity, Equity, Inclusion, and Accessibility (DEIA) values.
