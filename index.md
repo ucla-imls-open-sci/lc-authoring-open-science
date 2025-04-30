@@ -6,14 +6,6 @@ The values proclaimed by open science—trust, transparency, and reproducibility
 
 This lesson builds upon work done by the Caltech Library in their Author Carpentry lessons, focusing on how open science values can be integrated into the processes for authoring and reviewing research outputs. Topics include open authoring tools and workflows, contributor roles and transparency, ethics of authorship and review, and the mechanics and culture of open peer review. The lesson concludes by linking open science with Diversity, Equity, Inclusion, and Accessibility (DEIA) values.
 
-::::::::::: prerequisites
-## Prerequisites
-
-- Experience using internet browsers
-- Basic understanding of the scholarly publishing workflow
-- 
-:::::::::::::::::::::
-
 ## Learning Objectives
 
 - Demonstrate proficiency in describing various tools and platforms for creating, managing, and sharing open research outputs.
@@ -22,6 +14,20 @@ This lesson builds upon work done by the Caltech Library in their Author Carpent
 - Distinguish between open authoring and traditional publishing approaches, understanding their respective advantages and limitations in the context of research dissemination.
 - Understand and be able to discuss the importance of ensuring all contributions are clearly identified and attributed, and that doing so enhances the accuracy and transparency of authorship.
 - Recognize how transparent practices in authoring and reviewing science contribute to better outcomes and foster a more open and accountable research environment.
+
+## Narrative Setup
+
+An open science loving Author is told that their performance review is reliant on publishing in a “peer-reviewed journal”. They just want to work with their coauthors on GitHub so everything is in a repository with version history and capability for others to collaborate. Let’s learn with them about how the scholarly publishing process works and how they can integrate open science values.
+
+::::::::::: prerequisites
+## Prerequisites
+
+- Experience using internet browsers
+- Basic understanding of the scholarly publishing workflow
+- 
+:::::::::::::::::::::
+
+
 
 
 [workbench]: https://carpentries.github.io/sandpaper-docs
