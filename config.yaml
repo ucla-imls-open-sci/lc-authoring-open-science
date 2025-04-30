@@ -67,6 +67,7 @@ contact: 'team@carpentries.org' # FIXME
 # Order of episodes in your lesson
 episodes: 
 - scholarly-publishing-process.md
+- open-authoring-tools.md
 
 # Information for Learners
 learners: 
