@@ -4,23 +4,26 @@ teaching: 45
 exercises: 30
 ---
 
-## Questions
+::::: questions
 
 - What does it mean to publish research?
 - How do institutional, funder, and publisher policies affect authoring choices?
 - How can open science values reshape scholarly publishing?
 
-## Objectives
+:::::: 
 
-After this episode, learners will be able to:
+
+::: objectives 
 
 - Explain how to get an article published in a traditional scholarly publication.
 - Locate publications that have integrated open science processes into their publishing workflow.
 - Discuss how open science values can affect the collaboration process of writing a scholarly article.
 
+::::: 
+
 ## Narrative Setup
 
-An open science–minded author is told their performance review depends on publishing in a "peer-reviewed journal." They want to use GitHub to collaborate with coauthors transparently. This episode explores how the scholarly publishing process works and how open science values can be integrated.
+An open–science–minded author is told their performance review depends on publishing in a peer-reviewed journal. They want to use GitHub to collaborate with coauthors transparently. This episode explores how the scholarly publishing process works and how open science values can be integrated.
 
 ## Overview of Scholarly Publishing
 
@@ -36,9 +39,12 @@ Three stakeholder groups shape this:
 > - [arXiv](https://www.explainxkcd.com/wiki/index.php/2085:_arXiv)
 > - [Peer Review](https://www.explainxkcd.com/wiki/index.php/2025:_Peer_Review)
 
+::::: challenge 
+
 ## OPTIONAL Exercise: Jargon Busting
 
 Adapted from Library Carpentry: Have learners identify and explain publishing-related jargon in groups, then share out.
+::::::: 
 
 ## Case Studies
 
@@ -53,10 +59,15 @@ Dr. Brown chooses a closed journal based on personal networks and convenience, w
 
 > ![Placeholder for diagram: traditional vs open publishing](path/to/image.png)
 
+::::: discussion
+
 ## Discussion Exercise
+
 - What could Dr. Jay have done differently at the project planning stage?
 - If Dr. Ripken’s journal fees were too high, what would be their next step?
 - Should Dr. Brown’s team explore more open options?
+:::::: 
+
 
 ## Choosing a Publication Venue
 - Use [Think. Check. Submit.](https://thinkchecksubmit.org/journals/) to assess journal credibility
