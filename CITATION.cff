@@ -1,22 +1,18 @@
-# This template CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to replace its contents
-# with information about your lesson.
-# Remember to update this file periodically, 
-# ensuring that the author list and other fields remain accurate.
-
 cff-version: 1.2.0
-title: FIXME
+title: Authoring Open Science
 message: >-
   Please cite this lesson using the information in this file
   when you refer to it in publications, and/or if you
   re-use, adapt, or expand on the content in your own
   training material.
-type: dataset
+type: lesson
 authors:
-  - given-names: FIXME
-    family-names: FIXME
+  - given-names: Kathryn
+    family-names: Miller
+  - given-names: Andrea
+    family-names: Medina-Smith
 abstract: >-
-  FIXME Replace this with a short abstract describing the
-  lesson, e.g. its target audience and main intended
-  learning objectives.
+  This lesson introduces open science practices in writing, publishing, and reviewing scholarly research.
+  Learners will explore open authoring tools, understand contributor roles, and examine how transparency
+  supports reproducibility, collaboration, and equity in research.
 license: CC-BY-4.0
