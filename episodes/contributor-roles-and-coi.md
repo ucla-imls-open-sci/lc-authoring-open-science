@@ -4,25 +4,48 @@ teaching: 20
 exercises: 20
 ---
 
-## Overview
+:::: objectives
 
-This episode introduces the evolving concept of authorship in open science, focusing on the CRediT taxonomy for contributor roles and common issues surrounding conflicts of interest (COI). Learners will explore how authorship and transparency contribute to open and ethical research outputs.
-
-::: objectives
 - Understand author and contributor roles.
 - Determine appropriate roles for given contributions.
 - Explain common conflicts of interest and how to mitigate them.
-:::
+
+::::
+
+::: questions
+- What does it mean to author a paper? 
+- Are there different roles paper authors take on? 
+- Or is the title “author” reserved only for those who put “pen to paper”? 
+- Does open science take a different view of authorship? 
+:::: 
+
+The idea of authorship and who should be listed as an author has changed over time with the 
+open science movement bringing more emphasis to “team science” and a broader definition of 
+authorship. 
 
 ## Authorship in the Open Science Era
 
 What does it mean to author a paper? Is it just writing, or does it include data curation, software development, and conceptualization? Open science emphasizes transparency and inclusivity, broadening the definition of authorship to include many kinds of contributions.
 
-Traditionally, authorship focused on writing and editing. However, in contemporary research, multiple individuals may contribute through diverse roles. The CRediT taxonomy helps make these roles visible and standardized.
+Oxford Languages defines author as “a writer of a book, article, or report” and while this is 
+correct it is also extremely limiting and doesn’t take into account the reality of how research 
+outputs are constructed in the 21st century. Today research is done generally in a large team,
+and everyone should get credit for the work that they do. This means that authoring a paper can 
+include roles that did not exist 50 years ago. A broader definition that takes into account 
+current research practices is authorship is the work that goes into writing, editing and 
+otherwise preparing a research output for publication including data curation and management, 
+developing the methods or software that is used in the research and administrative tasks such 
+as supervision, procuring grants or other funding and even conceptualizing the research 
+questions. None of these roles are necessarily new, and in fact many publishers have had ways
+of capturing this work for many years,  but they have taken on greater importance in the era of 
+transparent and inclusive open science. 
 
-### CRediT Taxonomy
+### CRediT - Contributor Roles Taxonomy
 
-In 2015, NISO released the **Contributor Roles Taxonomy (CRediT)**, identifying 14 specific contributor roles:
+In 2015, NISO released the “contributors role taxonomy” also known as CRediT as a way to 
+standardize and make machine readable the terms being used by publishers when capturing 
+authorship roles. These 14 roles are a broad collection of the most common labor that 
+contributes to research and research outputs. 
 
 | Role                 | Description |
 |----------------------|-------------|
@@ -41,44 +64,44 @@ In 2015, NISO released the **Contributor Roles Taxonomy (CRediT)**, identifying 
 | Writing – original draft | Preparation, creation of the published work. |
 | Writing – review & editing | Critical review, commentary, or revision. |
 
-Other definitions exist, such as [ICMJE's authorship guidelines](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html), but CRediT is particularly helpful for structured, machine-readable attribution.
+CRediT is not the only way to define authorship at a role level. Other definitions like the 
+[ICMJE's authorship guidelines](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html), 
+define authorship for their journals. Typically a journal’s instructions to authors will cover authorship guidelines. 
 
-## Exercises
 
 ::: challenge
-**Exercise 1: Self-Reflection on Past Roles**
+
+## Self-Reflection on Past Roles
 
 Describe the roles you have taken in prior publications. Can you map them to CRediT roles? Were there times you should have received authorship credit but did not? 
+
 :::
 
 ::: challenge
-**Exercise 2: Role Assignment Case Study**
+
+## Role Assignment Case Study
 
 Given a fictional research team and their contributions (provided by instructor), assign each team member one or more CRediT roles. Discuss whether they should be listed as authors.
+
 :::
 
 ## Conflict of Interest
 
-Conflicts of Interest (COI) occur when personal or financial factors could bias, or appear to bias, an individual’s research or review responsibilities. These may be:
+![](fig/coi-author.png)
 
-- **Financial:** Ties to funding bodies, companies, or products.
-- **Non-financial:** Personal, professional, or ideological relationships.
+Conflict of interest (COI) in scholarly communication can be found at many different levels; 
+for an author, an editor, or a peer reviewer. This guide will focus on COI and authorship. 
+Broadly COI is defined as “any real or perceived influential factor that may influence, bias, 
+or affect the motivations of a researcher, thereby affecting their research’s integrity.” 
+For authors it can take the shape as an outside relationship (financial or otherwise) with an 
+industry sponsor or a close-personal relationship with a peer-reviewer. 
+
 
 Transparent disclosure is key to maintaining research integrity.
 
-::: callout
-## Conflict of Interest Statement (satirical example)
-> The authors hope these results are correct because we all want to be cool people who are good at science.
-:::
+:::: challenge
 
-## Mitigating Conflicts
-
-- Disclose potential COIs early and clearly.
-- Use institutional or journal disclosure forms.
-- Avoid reviewer assignments where relationships may bias judgment.
-
-::: challenge
-**Exercise 3: COI Quiz**
+## COI Quiz
 
 Mark each statement as True (T) or False (F):
 
@@ -87,10 +110,13 @@ Mark each statement as True (T) or False (F):
 3. Authors should disclose close collaborations or personal relationships relevant to their work.  
 4. Journals often have different requirements for COI disclosure.  
 
-*Answers: F, T, T, T*
-:::
+:::: solution
 
-## Key Points
+Answers: F, T, T, T
+
+:::::::
+::::::::::::::
+
 
 ::: keypoints
 - Authorship in open science includes more than writing; it encompasses many research roles.
