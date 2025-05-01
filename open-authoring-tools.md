@@ -16,11 +16,7 @@ exercises: 20
 - Understand what tools can convert open document formats to proprietary ones required by scholarly publications.
 :::
 
-::: keypoints
-- Authors can use open source tools to write and produce manuscript submissions.
-- The open science community continues to develop workflows for submitting manuscripts to publishers that require proprietary formats.
-- Some journals do accept open source file formats during the initial submission or review stage.
-:::
+
 
 ## Overview
 
@@ -104,3 +100,10 @@ Complete the [CommonMark tutorial](https://commonmark.org/help/tutorial/). Try c
 ## Exercise: LaTeX Document Structure
 
 Work through the [LaTeX structure lesson](https://www.learnlatex.org/en/lesson-04) to get familiar with sections, document classes, and compiling.
+
+
+::: keypoints
+- Authors can use open source tools to write and produce manuscript submissions.
+- The open science community continues to develop workflows for submitting manuscripts to publishers that require proprietary formats.
+- Some journals do accept open source file formats during the initial submission or review stage.
+:::
