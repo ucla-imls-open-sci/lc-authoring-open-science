@@ -16,17 +16,14 @@ exercises: 20
 - Understand what tools can convert open document formats to proprietary ones required by scholarly publications.
 :::
 
+There are many collaborative authoring tools available today; DOC, DOCX, and PDF are the file formats most requested by scholarly publishers. The trouble with these formats is that they are not open source. So how do we work within the confines of the scholarly publishing landscape while still adhering to our open science values? By finding other ways to author manuscripts, of course! 
+https://alternativeto.net/
 
+By finding other ways to author manuscripts, of course! <https://alternativeto.net/>
 
-## Overview
+## Alternative authoring tools
 
-There are many collaborative authoring tools available today. DOC, DOCX, and PDF are the formats most commonly requested by scholarly publishers. Unfortunately, these formats are not open source. So how do we align our open science values with these constraints?
-
-By using alternative, open authoring tools.
-
-[AlternativeTo](https://alternativeto.net/) is a useful resource for discovering open-source or privacy-respecting alternatives to common proprietary tools.
-
-## WYSIWYG Tools
+### WYSIWYG
 
 If you prefer a *What-You-See-Is-What-You-Get* (WYSIWYG) editor, here are some common options:
 
@@ -34,7 +31,14 @@ If you prefer a *What-You-See-Is-What-You-Get* (WYSIWYG) editor, here are some c
 - **LibreOffice**: free and open source — [feature comparison with Microsoft Office](https://wiki.documentfoundation.org/Feature_Comparison:_LibreOffice_-_Microsoft_Office)
 - **Apache OpenOffice**: free and open source, though not regularly updated.
 
-These tools support DOCX files and include features like collaboration and version history. However, they do not easily create semantically structured, machine-readable documents — a key goal for FAIR (Findable, Accessible, Interoperable, Reusable) outputs.
+Most journals have manuscript templates in DOCX format, which can be opened using these programs.
+
+These programs allow you to collaborate, show version history, and publish documents easily. 
+However, these programs do not easily create semantic, machine-readable documents. 
+To produce manuscripts, documentation, or other narrative research outputs that can be 
+Findable, accessible, interoperable, and reproducible it may be time to transition to a 
+*what-you-see-is-what-you-mean* (WYSIWYM) document editor. That is, a document editor that 
+focuses on the structure rather than the format.
 
 ## WYSIWYM Tools
 
@@ -42,13 +46,33 @@ For semantic authoring, consider *What-You-See-Is-What-You-Mean* (WYSIWYM) forma
 
 ### Markdown
 
-Markdown is a plain text format with lightweight semantic markup.
+What’s different? Plain text editor with semantic commands for visuals.
 
-You can write Markdown in any text editor and save the file with a `.md` extension. A good place to get started is:
+You can use any text editor to create a markdown file, change the extension from .txt to .md. 
+hackmd.io However, there is a new syntax you have to learn to do things like creating headings, 
+links, bold, italic, lists, etc. It’s easier to learn those things using a tutorial or an online web editor.
 
-- [CommonMark Tutorial (10 minutes)](https://commonmark.org/help/tutorial/)
+Let’s try the 10 minute Commonmark tutorial together:
 
-#### Markdown Resources
+::::: challenge 
+
+## Getting Started with Markdown 
+
+1. Open the CommonMark tutorial: https://commonmark.org/help/tutorial/
+
+2. Complete as many of the exercises as you can in 10 minutes. Try to explore:
+
+* Headings
+* Lists
+* Links
+* Code blocks
+
+::::: 
+
+Now you can create a markdown file, but how do you get it to the publisher? We already know 
+that most of them will only take DOCX or PDF files. While out of scope of this lesson, 
+there are many tutorials and open source software for converting Markdown into other formats 
+that publishers may accept:
 
 - [PoisotLab manuscript template](https://github.com/PoisotLab/manuscript-template)
 - [Markdown for Manuscripts](https://github.com/djhocking/Markdown-for-Manuscripts)
@@ -57,50 +81,63 @@ You can write Markdown in any text editor and save the file with a `.md` extensi
 
 ### RMarkdown
 
-RMarkdown combines Markdown with embedded R code to create reproducible research documents. It supports output to PDF, Word, and HTML.
+RMarkdown is markdown that integrates with R to create the formats required by a publisher. If you’re already using R in your work, this integration would be the best for 
+keeping your project files together. Tutorials on using RMarkdown are available through data carpentry: 
 
 - [RMarkdown in Data Carpentry](https://datacarpentry.org/r-socialsci/instructor/06-rmarkdown.html)
+
+And researchers have a tutorial on how to produce a msncuript for submission to Journal of Mass Spectrometry & Advances in the Clinical Lab (JMSACL)
+
 - [Reproducible submission to JMSACL](https://github.com/drdanholmes/jmsacl_reproducible_research)
 
 ### LaTeX
 
-LaTeX is a document preparation system using plain text and markup for structure and formatting. You write `.tex` files and compile them into PDF.
+What’s different? Instructions to the ‘compiler’ on what each section should be, the .TEX file is not the product, 
+the PDF that is produced is.
+[Lesson 2 of Learn LaTeX](https://www.learnlatex.org/en/lesson-02) explains how LaTeX works by 
+combining multiple tools, rather than functioning as a single application. Unlike many computer programs, LaTeX is not a single application containing ‘everything’ in one. 
+Instead, there are separate programs that work together. We can divide those up into two things 
+you actually need:
 
-Start learning LaTeX:
+- A TeX system
+- A text editor (often a LaTeX-specific one)
+
+::::::: challenge 
+
+## Getting Started with LaTex
+
+Let’s do this structure exercise together:https://www.learnlatex.org/en/lesson-04 
+
+:::
+
+Other tutorials:
 
 - [LaTeX: Document Structure Exercise](https://www.learnlatex.org/en/lesson-04)
 - [LaTeX Novice Typesetting (Carpentries Incubator)](https://carpentries-incubator.github.io/latex-novice-typesetting/)
 - [LaTeX Course (Parts 1 & 2)](https://jdlm.info/latex-course/en/)
 
-## Meeting Publisher Requirements
+## How to meet submission requirements
 
-If publishers only accept proprietary formats, how can you still use open tools?
+If most publishers only accept proprietary formats like DOCX and PDF files, how do you use 
+open source or alternative authoring tools to submit to publishers?
+
+There are options:
 
 1. Most WYSIWYG editors allow export to DOCX or PDF.
    - **Caveat**: These may not be digitally accessible or semantically rich.
 
-2. Tools like **Pandoc** can convert Markdown, LaTeX, and other open formats into publisher-accepted ones.
+2. Depending on the language you use to author your document, you may be able to use 
+open source programs like PANDOC to transform your file into one of the required file formats.
 
-3. Some publishers accept open formats:
-   - **LaTeX**: Commonly accepted at submission or for typesetting post-acceptance.
-   - **Markdown**: Some open publishing platforms accept markdown submissions.
-
-### Examples
-
-- [Authorea](https://authorservices.wiley.com/author-resources/Journal-Authors/Prepare/authorea.html)
-- [PubPub](https://www.knowledgefutures.org/pubpub/)
-- [Overleaf](https://www.overleaf.com/)
-- [Journal of Open Source Software (JOSS)](https://www.theoj.org/)
-- [Programming Historian Guidelines](https://programminghistorian.org/en/author-guidelines)
-
-## Exercise: Markdown Basics
-
-Complete the [CommonMark tutorial](https://commonmark.org/help/tutorial/). Try creating headings, lists, links, and formatting text using a plain text editor.
-
-## Exercise: LaTeX Document Structure
-
-Work through the [LaTeX structure lesson](https://www.learnlatex.org/en/lesson-04) to get familiar with sections, document classes, and compiling.
-
+3. Some publishers may accept open source formats like LaTeX or Markdown.
+   a. Many publishers will ask for your LaTeX files for final formatting if your article is accepted, but they will have their own requirements for the structure  
+   b. Publishers are starting to use their own online collaborative authoring platforms that use Markdown and LaTeX   
+      1. Authorea [https://authorservices.wiley.com/author-resources/Journal-Authors/Prepare/authorea.html](https://authorservices.wiley.com/author-resources/Journal-Authors/Prepare/authorea.html)  
+      2. [https://www.knowledgefutures.org/pubpub/](https://www.knowledgefutures.org/pubpub/)   
+      3. Overleaf   
+   c. Some journals focused on publishing open source publications will only accept markdown submissions  
+      1. [https://www.theoj.org/](https://www.theoj.org/)  
+      2. https://programminghistorian.org/en/author-guidelines
 
 ::: keypoints
 - Authors can use open source tools to write and produce manuscript submissions.
