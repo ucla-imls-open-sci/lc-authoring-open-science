@@ -8,6 +8,7 @@ layout: lesson
 This lesson introduces open science practices in writing, publishing, and peer review of scholarly research. Learners will explore open authoring tools, understand contributor roles, and examine how transparency supports reproducibility, collaboration, and equity in research.
 
 ## Rendered Lesson
+
 [View the rendered version](https://ucsdlib.github.io/AuthoringOpenScienceLesson/)
 
 ## Contact
