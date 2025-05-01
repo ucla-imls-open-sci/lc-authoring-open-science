@@ -118,11 +118,11 @@
   Authoring Open Science
 </div>
 
-<aside class="col-md-12 lesson-progress"><div style="width: 45%" class="percentage">
-    45%
+<aside class="col-md-12 lesson-progress"><div style="width: 37%" class="percentage">
+    37%
   </div>
   <div class="progress library">
-    <div class="progress-bar library" role="progressbar" style="width: 45%" aria-valuenow="45" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar library" role="progressbar" style="width: 37%" aria-valuenow="37" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -225,12 +225,9 @@
 
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
-        <ul><li><a href="#overview">Overview</a></li>
-<li><a href="#wysiwyg-tools">WYSIWYG Tools</a></li>
+        <ul><li><a href="#alternative-authoring-tools">Alternative authoring tools</a></li>
 <li><a href="#wysiwym-tools">WYSIWYM Tools</a></li>
-<li><a href="#meeting-publisher-requirements">Meeting Publisher Requirements</a></li>
-<li><a href="#exercise-markdown-basics">Exercise: Markdown Basics</a></li>
-<li><a href="#exercise-latex-document-structure">Exercise: LaTeX Document Structure</a></li>
+<li><a href="#how-to-meet-submission-requirements">How to meet submission requirements</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
 
@@ -240,7 +237,16 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="open-peer-review.html">3. Open Peer Review</a>
+        <a href="contributor-roles-and-coi.html">3. Authorship and Conflict of Interest</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush5">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading5">
+        <a href="open-peer-review.html">4. Open Peer Review</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -289,7 +295,7 @@
   <div class="col-xl-8 col-lg-12 primary-content">
     <nav class="lesson-content mx-md-4" aria-label="Previous and Next Chapter"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="../instructor/scholarly-publishing-process.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
-        <a class="chapter-link float-end" href="../instructor/open-peer-review.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="../instructor/contributor-roles-and-coi.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
@@ -297,8 +303,8 @@
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
           Previous: The Scholarly
         </a>
-        <a class="chapter-link float-end" href="../instructor/open-peer-review.html" rel="next">
-          Next: Open Peer Review...
+        <a class="chapter-link float-end" href="../instructor/contributor-roles-and-coi.html" rel="next">
+          Next: Authorship and...
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i>
         </a>
       </div>
@@ -349,17 +355,17 @@ proprietary ones required by scholarly publications.</li>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a></h2>
-<hr class="half-width"><p>There are many collaborative authoring tools available today. DOC,
-DOCX, and PDF are the formats most commonly requested by scholarly
-publishers. Unfortunately, these formats are not open source. So how do
-we align our open science values with these constraints?</p>
-<p>By using alternative, open authoring tools.</p>
-<p><a href="https://alternativeto.net/" class="external-link">AlternativeTo</a> is a useful
-resource for discovering open-source or privacy-respecting alternatives
-to common proprietary tools.</p>
-</section><section><h2 class="section-heading" id="wysiwyg-tools">WYSIWYG Tools<a class="anchor" aria-label="anchor" href="#wysiwyg-tools"></a></h2>
-<hr class="half-width"><p>If you prefer a <em>What-You-See-Is-What-You-Get</em> (WYSIWYG)
+<p>There are many collaborative authoring tools available today; DOC,
+DOCX, and PDF are the file formats most requested by scholarly
+publishers. The trouble with these formats is that they are not open
+source. So how do we work within the confines of the scholarly
+publishing landscape while still adhering to our open science values? By
+finding other ways to author manuscripts, of course! <a href="https://alternativeto.net/" class="external-link uri">https://alternativeto.net/</a></p>
+<p>By finding other ways to author manuscripts, of course! <a href="https://alternativeto.net/" class="external-link uri">https://alternativeto.net/</a></p>
+<section><h2 class="section-heading" id="alternative-authoring-tools">Alternative authoring tools<a class="anchor" aria-label="anchor" href="#alternative-authoring-tools"></a></h2>
+<hr class="half-width"><div class="section level3">
+<h3 id="wysiwyg">WYSIWYG<a class="anchor" aria-label="anchor" href="#wysiwyg"></a></h3>
+<p>If you prefer a <em>What-You-See-Is-What-You-Get</em> (WYSIWYG)
 editor, here are some common options:</p>
 <ul><li>
 <strong>Google Docs</strong>: free but not open source.</li>
@@ -370,22 +376,52 @@ comparison with Microsoft Office</a>
 <li>
 <strong>Apache OpenOffice</strong>: free and open source, though not
 regularly updated.</li>
-</ul><p>These tools support DOCX files and include features like
-collaboration and version history. However, they do not easily create
-semantically structured, machine-readable documents — a key goal for
-FAIR (Findable, Accessible, Interoperable, Reusable) outputs.</p>
+</ul><p>Most journals have manuscript templates in DOCX format, which can be
+opened using these programs.</p>
+<p>These programs allow you to collaborate, show version history, and
+publish documents easily. However, these programs do not easily create
+semantic, machine-readable documents. To produce manuscripts,
+documentation, or other narrative research outputs that can be Findable,
+accessible, interoperable, and reproducible it may be time to transition
+to a <em>what-you-see-is-what-you-mean</em> (WYSIWYM) document editor.
+That is, a document editor that focuses on the structure rather than the
+format.</p>
+</div>
 </section><section><h2 class="section-heading" id="wysiwym-tools">WYSIWYM Tools<a class="anchor" aria-label="anchor" href="#wysiwym-tools"></a></h2>
 <hr class="half-width"><p>For semantic authoring, consider
 <em>What-You-See-Is-What-You-Mean</em> (WYSIWYM) formats such as:</p>
 <div class="section level3">
 <h3 id="markdown">Markdown<a class="anchor" aria-label="anchor" href="#markdown"></a></h3>
-<p>Markdown is a plain text format with lightweight semantic markup.</p>
-<p>You can write Markdown in any text editor and save the file with a
-<code>.md</code> extension. A good place to get started is:</p>
-<ul><li><a href="https://commonmark.org/help/tutorial/" class="external-link">CommonMark Tutorial
-(10 minutes)</a></li>
-</ul><div class="section level4">
-<h4 id="markdown-resources">Markdown Resources<a class="anchor" aria-label="anchor" href="#markdown-resources"></a></h4>
+<p>What’s different? Plain text editor with semantic commands for
+visuals.</p>
+<p>You can use any text editor to create a markdown file, change the
+extension from .txt to .md. hackmd.io However, there is a new syntax you
+have to learn to do things like creating headings, links, bold, italic,
+lists, etc. It’s easier to learn those things using a tutorial or an
+online web editor.</p>
+<p>Let’s try the 10 minute Commonmark tutorial together:</p>
+<div id="getting-started-with-markdown" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="getting-started-with-markdown" class="callout-inner">
+<h3 class="callout-title">Getting Started with Markdown</h3>
+<div class="callout-content">
+<ol style="list-style-type: decimal"><li><p>Open the CommonMark tutorial: <a href="https://commonmark.org/help/tutorial/" class="external-link uri">https://commonmark.org/help/tutorial/</a></p></li>
+<li><p>Complete as many of the exercises as you can in 10 minutes. Try
+to explore:</p></li>
+</ol><ul><li>Headings</li>
+<li>Lists</li>
+<li>Links</li>
+<li>Code blocks</li>
+</ul></div>
+</div>
+</div>
+<p>Now you can create a markdown file, but how do you get it to the
+publisher? We already know that most of them will only take DOCX or PDF
+files. While out of scope of this lesson, there are many tutorials and
+open source software for converting Markdown into other formats that
+publishers may accept:</p>
 <ul><li><a href="https://github.com/PoisotLab/manuscript-template" class="external-link">PoisotLab
 manuscript template</a></li>
 <li><a href="https://github.com/djhocking/Markdown-for-Manuscripts" class="external-link">Markdown
@@ -395,23 +431,44 @@ authorship with Pandoc</a></li>
 <li><a href="https://swcarpentry.github.io/modern-scientific-authoring/02-markdown/" class="external-link">The
 Carpentries Markdown lesson</a></li>
 </ul></div>
-</div>
 <div class="section level3">
 <h3 id="rmarkdown">RMarkdown<a class="anchor" aria-label="anchor" href="#rmarkdown"></a></h3>
-<p>RMarkdown combines Markdown with embedded R code to create
-reproducible research documents. It supports output to PDF, Word, and
-HTML.</p>
+<p>RMarkdown is markdown that integrates with R to create the formats
+required by a publisher. If you’re already using R in your work, this
+integration would be the best for keeping your project files together.
+Tutorials on using RMarkdown are available through data carpentry:</p>
 <ul><li><a href="https://datacarpentry.org/r-socialsci/instructor/06-rmarkdown.html" class="external-link">RMarkdown
 in Data Carpentry</a></li>
-<li><a href="https://github.com/drdanholmes/jmsacl_reproducible_research" class="external-link">Reproducible
+</ul><p>And researchers have a tutorial on how to produce a msncuript for
+submission to Journal of Mass Spectrometry &amp; Advances in the
+Clinical Lab (JMSACL)</p>
+<ul><li><a href="https://github.com/drdanholmes/jmsacl_reproducible_research" class="external-link">Reproducible
 submission to JMSACL</a></li>
 </ul></div>
 <div class="section level3">
 <h3 id="latex">LaTeX<a class="anchor" aria-label="anchor" href="#latex"></a></h3>
-<p>LaTeX is a document preparation system using plain text and markup
-for structure and formatting. You write <code>.tex</code> files and
-compile them into PDF.</p>
-<p>Start learning LaTeX:</p>
+<p>What’s different? Instructions to the ‘compiler’ on what each section
+should be, the .TEX file is not the product, the PDF that is produced
+is. <a href="https://www.learnlatex.org/en/lesson-02" class="external-link">Lesson 2 of Learn
+LaTeX</a> explains how LaTeX works by combining multiple tools, rather
+than functioning as a single application. Unlike many computer programs,
+LaTeX is not a single application containing ‘everything’ in one.
+Instead, there are separate programs that work together. We can divide
+those up into two things you actually need:</p>
+<ul><li>A TeX system</li>
+<li>A text editor (often a LaTeX-specific one)</li>
+</ul><div id="getting-started-with-latex" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="getting-started-with-latex" class="callout-inner">
+<h3 class="callout-title">Getting Started with LaTex</h3>
+<div class="callout-content">
+<p>Let’s do this structure exercise together:<a href="https://www.learnlatex.org/en/lesson-04" class="external-link uri">https://www.learnlatex.org/en/lesson-04</a></p>
+</div>
+</div>
+</div>
+<p>Other tutorials:</p>
 <ul><li><a href="https://www.learnlatex.org/en/lesson-04" class="external-link">LaTeX: Document
 Structure Exercise</a></li>
 <li><a href="https://carpentries-incubator.github.io/latex-novice-typesetting/" class="external-link">LaTeX
@@ -419,45 +476,41 @@ Novice Typesetting (Carpentries Incubator)</a></li>
 <li><a href="https://jdlm.info/latex-course/en/" class="external-link">LaTeX Course (Parts 1
 &amp; 2)</a></li>
 </ul></div>
-</section><section><h2 class="section-heading" id="meeting-publisher-requirements">Meeting Publisher Requirements<a class="anchor" aria-label="anchor" href="#meeting-publisher-requirements"></a></h2>
-<hr class="half-width"><p>If publishers only accept proprietary formats, how can you still use
-open tools?</p>
+</section><section><h2 class="section-heading" id="how-to-meet-submission-requirements">How to meet submission requirements<a class="anchor" aria-label="anchor" href="#how-to-meet-submission-requirements"></a></h2>
+<hr class="half-width"><p>If most publishers only accept proprietary formats like DOCX and PDF
+files, how do you use open source or alternative authoring tools to
+submit to publishers?</p>
+<p>There are options:</p>
 <ol style="list-style-type: decimal"><li>
 <p>Most WYSIWYG editors allow export to DOCX or PDF.</p>
 <ul><li>
 <strong>Caveat</strong>: These may not be digitally accessible or
 semantically rich.</li>
 </ul></li>
-<li><p>Tools like <strong>Pandoc</strong> can convert Markdown, LaTeX,
-and other open formats into publisher-accepted ones.</p></li>
+<li><p>Depending on the language you use to author your document, you
+may be able to use open source programs like PANDOC to transform your
+file into one of the required file formats.</p></li>
 <li>
-<p>Some publishers accept open formats:</p>
-<ul><li>
-<strong>LaTeX</strong>: Commonly accepted at submission or for
-typesetting post-acceptance.</li>
+<p>Some publishers may accept open source formats like LaTeX or
+Markdown.</p>
+<ol style="list-style-type: lower-alpha"><li>Many publishers will ask for your LaTeX files for final formatting
+if your article is accepted, but they will have their own requirements
+for the structure<br></li>
+<li>Publishers are starting to use their own online collaborative
+authoring platforms that use Markdown and LaTeX
+<ol style="list-style-type: decimal"><li>Authorea <a href="https://authorservices.wiley.com/author-resources/Journal-Authors/Prepare/authorea.html" class="external-link">https://authorservices.wiley.com/author-resources/Journal-Authors/Prepare/authorea.html</a><br></li>
 <li>
-<strong>Markdown</strong>: Some open publishing platforms accept
-markdown submissions.</li>
-</ul></li>
-</ol><div class="section level3">
-<h3 id="examples">Examples<a class="anchor" aria-label="anchor" href="#examples"></a></h3>
-<ul><li><a href="https://authorservices.wiley.com/author-resources/Journal-Authors/Prepare/authorea.html" class="external-link">Authorea</a></li>
-<li><a href="https://www.knowledgefutures.org/pubpub/" class="external-link">PubPub</a></li>
-<li><a href="https://www.overleaf.com/" class="external-link">Overleaf</a></li>
-<li><a href="https://www.theoj.org/" class="external-link">Journal of Open Source Software
-(JOSS)</a></li>
-<li><a href="https://programminghistorian.org/en/author-guidelines" class="external-link">Programming
-Historian Guidelines</a></li>
-</ul></div>
-</section><section><h2 class="section-heading" id="exercise-markdown-basics">Exercise: Markdown Basics<a class="anchor" aria-label="anchor" href="#exercise-markdown-basics"></a></h2>
-<hr class="half-width"><p>Complete the <a href="https://commonmark.org/help/tutorial/" class="external-link">CommonMark tutorial</a>.
-Try creating headings, lists, links, and formatting text using a plain
-text editor.</p>
-</section><section><h2 class="section-heading" id="exercise-latex-document-structure">Exercise: LaTeX Document Structure<a class="anchor" aria-label="anchor" href="#exercise-latex-document-structure"></a></h2>
-<hr class="half-width"><p>Work through the <a href="https://www.learnlatex.org/en/lesson-04" class="external-link">LaTeX structure
-lesson</a> to get familiar with sections, document classes, and
-compiling.</p>
-<div id="keypoints1" class="callout keypoints">
+<a href="https://www.knowledgefutures.org/pubpub/" class="external-link">https://www.knowledgefutures.org/pubpub/</a><br></li>
+<li>Overleaf<br></li>
+</ol></li>
+<li>Some journals focused on publishing open source publications will
+only accept markdown submissions
+<ol style="list-style-type: decimal"><li>
+<a href="https://www.theoj.org/" class="external-link">https://www.theoj.org/</a><br></li>
+<li><a href="https://programminghistorian.org/en/author-guidelines" class="external-link uri">https://programminghistorian.org/en/author-guidelines</a></li>
+</ol></li>
+</ol></li>
+</ol><div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
 </div>
@@ -481,7 +534,7 @@ any links that you are not going to use.
 </section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="../instructor/scholarly-publishing-process.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
-        <a class="chapter-link float-end" href="../instructor/open-peer-review.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="../instructor/contributor-roles-and-coi.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
@@ -489,8 +542,8 @@ any links that you are not going to use.
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
           Previous: The Scholarly
         </a>
-        <a class="chapter-link float-end" href="../instructor/open-peer-review.html" rel="next">
-          Next: Open Peer Review...
+        <a class="chapter-link float-end" href="../instructor/contributor-roles-and-coi.html" rel="next">
+          Next: Authorship and...
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i>
         </a>
       </div>
